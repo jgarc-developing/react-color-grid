@@ -1,3 +1,74 @@
+label {
+  font-size: 25px;
+  font-style: bold;
+}
+
+input {
+  height: 25px; width: 100px;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 25px;
+  width: 300px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+
+form {
+  width: 300px;
+}
+
+form div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.inputForm {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+
+.gridContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.square {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border: solid transparent 3px;
+}
+
+.selector > td:hover {
+  border: solid orange 3px;
+}
+
+.colorOption {
+  height: 50px;
+  width: 50px;
+  border: solid transparent 3px;
+}
+
+#black {
+  background-color: #000000;
+}
+
+#blue {
+  background-color: #0059ff;
+}
+
+#green {
+  background-color: #008000;
+}
+
 .App {
   text-align: center;
 }
